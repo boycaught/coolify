@@ -1582,6 +1582,9 @@ All notable changes to this project will be documented in this file.
 - *(services)* Add Jean Server one-click template (#11248)
 - *(ui)* Unify resource headings with responsive action menus
 - *(ui)* Consolidate resource heading actions
+- *(project)* Add icons and improve persistent volume management
+- *(backups)* Use parallel gzip for volume backups
+- *(backups)* Add configurable CPU usage for volume compression
 
 ### 🐛 Bug Fixes
 
@@ -5664,6 +5667,11 @@ All notable changes to this project will be documented in this file.
 - *(upgrade)* Handle status polling after older release restarts
 - *(upgrade)* Explain manual reload fallback
 - *(logs)* Preserve manual follow state and hide filtered lines
+- *(ui)* Resolve "Could not find Livewire component in DOM tree" on What's New click
+- *(ui)* Resolve "Could not find Livewire component in DOM tree" on What's New click (#11261)
+- *(validation)* Improve private URL handling and error feedback
+- *(ui)* Normalize S3 endpoints and remove duplicate config warnings
+- *(database)* Set PostgreSQL SSL certificate ownership (#11286)
 
 ### 💼 Other
 
@@ -7054,6 +7062,7 @@ All notable changes to this project will be documented in this file.
 - Remove coold VM dev setup and container roles sections from README
 - *(release)* Document SHA image promotion workflow
 - *(release)* Clarify branch strategy and SHA build flow
+- Update changelog
 
 ### ⚡ Performance
 
@@ -8032,6 +8041,7 @@ All notable changes to this project will be documented in this file.
 - *(release)* Bump Coolify version to 4.3.2
 - *(dev)* Replace Spin with docker compose for local dev
 - *(release)* Bump Coolify version metadata
+- *(images)* Prevent publishing duplicate production versions
 
 ### ◀️ Revert
 
